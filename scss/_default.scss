@@ -1,0 +1,66 @@
+h1 {
+	margin-bottom: $headers-margin;
+}
+
+h2 {
+	margin-bottom: $headers-margin;
+}
+
+h3 {
+	margin-bottom: $headers-margin;
+}
+
+h4 {
+	margin-bottom: $headers-margin;
+}
+
+h5 {
+	margin-bottom: $headers-margin;
+}
+
+p {
+
+}
+
+a {}
+
+img {}
+
+ol,
+ul,
+dl {
+	li {}
+}
+
+ol {}
+
+ul {}
+
+dl {}
+
+.wrap {}
+
+.wrapper {}
+
+.ibg {
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+
+	img {
+		display: none;
+	}
+}
+
+input,
+textarea{
+	padding: 3px;
+	outline: none;
+
+	&.invalid{
+		border: 2px solid rgb(218, 71, 71);
+	}
+	&.valid{
+		border: 2px solid rgb(55, 158, 55);
+	}
+}

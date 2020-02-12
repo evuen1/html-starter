@@ -1,0 +1,76 @@
+@import "_variables.scss";
+@import "_mixins.scss";
+@import "_fonts.scss";
+@import "_reboot.scss";
+@import "_grid.scss";
+@import "_default.scss";
+@import "_keyframes.scss";
+
+/*
+
+all used colors: 
+#ece89d
+#5e5373
+#18b5a4
+
+all used fonts:
+-Roboto;
+-Ubuntu;
+
+all used libs:
+-jQuery
+
+body
+---header
+------#header-menu
+---main
+------#block
+---footer
+
+*/
+
+*{ // debug
+	outline: 0.1vmin solid #ccc;
+}
+
+// [========[ body ]========]
+
+body{
+	color: $default-text-color;
+	font-family: $default-font-family;
+	background-color: $default-body-color;
+	position: relative;
+	padding: 50px;
+}
+
+// [========[ header ]========]
+
+header{
+	
+}
+
+// [========[ main ]========]
+
+main{
+
+}
+
+// [========[ main:block ]========]
+
+.block{
+	height: 200px;
+	width: 20px;
+	border-color: #ffffff;
+}
+
+// [========[ footer ]========]
+
+#footer{}
+
+// [========[ error ]========]
+
+[id$='error'] {
+	color: red;
+}
+
+@import "_progress.scss";
